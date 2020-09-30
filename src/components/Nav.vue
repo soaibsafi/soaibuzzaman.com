@@ -2,7 +2,7 @@
   <header class="bg-gray-900 sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3 ">
     <div class="flex items-center justify-between px-4 py-3 sm:p-0">
       <div>
-        <a class="h-10 block px-2 py-1 text-white font-mono  text-xl rounded hover:bg-gray-800" href="/">✒️ Soaibuzzaman</a>
+        <a class="h-10 block px-2 py-1 text-white font-mono text-xl rounded hover:bg-gray-800" href="/">✒️ Soaibuzzaman</a>
       </div>
       <div class="sm:hidden">
         <button @click="isOpen = !isOpen" type="button" class="block text-gray-500 hover:text-white focus:text-white focus:outline-none">

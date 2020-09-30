@@ -329,6 +329,10 @@ export default {
 </script>
 
 <style scoped>
+body {
+    margin: 0;
+    padding: 0;
+}
 a {
   background: linear-gradient(transparent 75%, #66ff99 0);
 }

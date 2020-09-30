@@ -6,7 +6,7 @@
       <div
         class="flex flex-col md:flex-row md:max-w-3xl xl:max-w-4xl mx-auto text-left px-3 pt-3"
       >
-        <div class="md:max-w-3xl xl:max-w-5xl">
+        <div class="max-w-5xl md:max-w-3xl xl:max-w-5xl">
           <h1
             class="text-2xl sm:text-4xl md:text-4xl font-sans font-bold mb-1 text-gray-800"
           >
@@ -101,6 +101,10 @@ export default {
 
 
 <style scoped>
+body {
+    margin: 0;
+    padding: 0;
+}
 a {
   background: linear-gradient(transparent 75%, #66ff99 0);
 }
