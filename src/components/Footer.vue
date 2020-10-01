@@ -16,12 +16,6 @@
         class="block px-4 py-1 text-black font-mono text-xl rounded hover:bg-gray-200"
         >RSS</a
       >
-      <a
-        href="https://ko-fi.com/soaibuzzaman"
-        target="_blank"
-        class="block px-4 py-1 text-black font-mono text-xl rounded hover:bg-gray-200"
-        >Ko-fi</a
-      >
     </nav>
 
     <nav class="flex justify-center items-center py-2">
