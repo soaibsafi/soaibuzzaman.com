@@ -85,6 +85,7 @@ export default {
         { property: "og:title", content: "Soaibuzzaman" },
         { property: "og:description", content: this.ogDescription },
         { property: "og:url", content: `${this.config.siteUrl}` },
+        { name: "google-site-verification", content: "Ojaj63_AXoV4pP8pAIvAnuuB3vpQ8VuNfW" },
       ],
     };
   },

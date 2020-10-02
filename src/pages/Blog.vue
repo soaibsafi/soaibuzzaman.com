@@ -54,6 +54,7 @@ export default {
           content: this.$static.metadata.siteDescription,
         },
         { property: "og:url", content: this.$static.metadata.siteUrl },
+        { name: "google-site-verification", content: "Ojaj63_AXoV4pP8pAIvAnuuB3vpQ8VuNfW" },
       ],
     };
   },

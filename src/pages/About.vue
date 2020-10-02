@@ -314,6 +314,7 @@ export default {
         { property: "og:title", content: "About" },
         { property: "og:description", content: this.ogDescription },
         { property: "og:url", content: `${this.config.siteUrl}/about/` },
+        { name: "google-site-verification", content: "Ojaj63_AXoV4pP8pAIvAnuuB3vpQ8VuNfW" },
       ],
     };
   },
