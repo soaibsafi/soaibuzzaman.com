@@ -215,7 +215,7 @@
                   <p class="text-lg font-bold pb-1">
                     B.Sc., in Computer Science &amp; Engineering,
                   </p>
-                  <p>B.Sc., in Computer Science &amp; Engineering</p>
+                  <p>American International University - Bangladesh</p>
                   <p class="text-sm">Department of Computer Science</p>
                   <p class="text-sm">2014 - 2018</p>
                 </div>
@@ -279,7 +279,7 @@
             >
               <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
             </svg>
-            <a href="/static/Resume_Soaibuzzaman.pdf" target="_blank" download
+            <a href="Resume_Soaibuzzaman.pdf"
               >Resume</a
             >
           </button>
