@@ -279,9 +279,10 @@
             >
               <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
             </svg>
-            <a href="Resume_Soaibuzzaman.pdf"
-              >Resume</a
+            <g-link href="Resume_Soaibuzzaman.pdf"  target="_blank"
+              >Resume</g-link
             >
+            
           </button>
         </div>
       </div>
