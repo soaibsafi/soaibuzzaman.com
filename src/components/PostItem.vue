@@ -6,7 +6,7 @@
         class="text-gray-600 text-bold font-family:roboto text-xs mb-1 mx-1"
         >{{ formatPublishDate(post.datetime) }}</time
       >
-      <h2 class="text-xl sm:text-xl leading-tight text-black font-sans font-bold">
+      <h2 class="text-lg sm:text-lg leading-tight text-black font-sans font-bold">
         <g-link
           :to="`${post.path}/`"
           >{{ post.title }}</g-link

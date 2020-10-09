@@ -11,7 +11,12 @@ module.exports = {
       externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
       anchorClassName: 'icon icon-link',
       plugins: [
-        'gridsome-plugin-remark-prismjs-all',
+        //'gridsome-plugin-remark-prismjs-all',
+        ['gridsome-plugin-remark-shiki', {
+          theme: 'min-light'
+        }],
+        //remark support for math equations
+        'gridsome-remark-katex',
       ]
     }
   },

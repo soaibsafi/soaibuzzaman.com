@@ -1,4 +1,6 @@
 import DefaultLayout from "~/layouts/Default.vue";
+//Gridsome remark support for math equations using remark-math and katex.
+import 'katex/dist/katex.min.css'
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
   faGithubSquare,
