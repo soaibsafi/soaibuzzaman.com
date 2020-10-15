@@ -9,8 +9,8 @@
           <h1 class="text-4xl sm:text-4xl md:text-4xl font-sans font-bold mb-1">
             <g-link to="/blog" class="text-black">🌱Blog</g-link>
           </h1>
-          <h1 class="text-3xl md:text-4xl font-sans font-bold mb-1 text-black">
-            #{{ titleCase($page.tag.title) }}
+          <h1 class="text-2xl md:text-2xl font-sans font-bold mb-1 text-black inline-block rounded-lg px-3 py-1 bg-green-200 ">
+            {{ titleCase($page.tag.title) }}
           </h1>
         </div>
       </header>

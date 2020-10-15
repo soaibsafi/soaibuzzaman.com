@@ -1,12 +1,12 @@
 <template>
-  <div class="flex flex-col md:flex-row mx-auto px-1 py-1">
+  <div class="flex flex-col md:flex-row mx-auto px-1 pb-1">
     <div class="max-w-xl">
       <time
         :datetime="post.datetime"
-        class="text-gray-600 text-bold font-family:roboto text-xs mb-1 mx-1"
+        class="text-gray-600 text-bold font-family:roboto text-xs mb-1 mx-0"
         >{{ formatPublishDate(post.datetime) }}</time
       >
-      <h2 class="text-lg sm:text-lg leading-tight text-black font-sans font-bold">
+      <h2 class="text-xl sm:text-xl leading-tight text-gray-800 font-sans font-bold">
         <g-link
           :to="`${post.path}/`"
           >{{ post.title }}</g-link
@@ -14,22 +14,21 @@
       </h2>
     </div>
     <div
-      class="font-roboto md:ml-auto "
+      class="font-sans md:ml-auto "
     >
-      <div class="py-2">
+      <div class="py-1">
         <g-link
           v-for="tag in post.tags"
           :key="tag.id"
           :to="`${tag.path}/`"
-          class="inline-block bg-gray-200 rounded-full px-2 bg-blue-200 hover:bg-blue-300 text-xs text-gray-700 mr-1 mb-1"
+          class="inline-block rounded-lg px-2 py-1 bg-green-200 hover:bg-green-400 text-sm text-gray-700 mr-1 mb-1 mt-0 sm:mt-4"
         >
-          #{{ tag.title }}
+          {{ tag.title }}
         </g-link>
 
       </div>
     </div>
-    
-         
+    <hr>
   </div>
 </template>
 

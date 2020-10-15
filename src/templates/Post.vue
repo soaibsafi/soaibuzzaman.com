@@ -7,9 +7,9 @@
           v-for="tag in $page.post.tags"
           :key="tag.id"
           :to="`${tag.path}/`"
-          class="inline-block bg-gray-200 rounded-full px-2 py-1 bg-blue-200 hover:bg-blue-300 text-gray-700 mr-1 mb-1"
+          class="inline-block rounded-lg px-2 py-1 bg-green-200 hover:bg-green-400 text-sm text-gray-800 mr-1 mb-1"
         >
-          #{{ tag.title }}
+          {{ tag.title }}
         </g-link>
       </div>
       <hr />
@@ -17,7 +17,7 @@
         class="max-w-xl md:max-w-2xl xl:max-w-3xl mx-auto px-6 sm:px-12"
       >
         <div
-          class="markdown text-xs font-sans leading-normal text-gray-700"
+          class="markdown text-lg font-sans leading-normal text-gray-700"
           v-html="$page.post.content"
         />
       </article>

@@ -16,8 +16,8 @@
           </p>
         </div>
       </header>
-      <div class="max-w-xl md:max-w-2xl xl:max-w-3xl mx-auto">
-        <section class="ml-3">
+      <div class="max-w-xl md:max-w-2xl xl:max-w-3xl mx-auto mt-0">
+        <section class="ml-2">
           <post-item
             v-for="edge in $page.posts.edges"
             :key="edge.node.id"
