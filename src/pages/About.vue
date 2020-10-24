@@ -64,7 +64,6 @@
                 - Project Euler is mainly for expanding analytical thinking and
                 Hackerrank to rise language proficiency.
               </li>
-              <li class="py-1">Looking for Master’s Thesis and Internship</li>
               <li class="py-1">
                 Search for open source projects to collaborate.
               </li>
@@ -231,21 +230,24 @@
             </h3>
             <ul class="text-md font-sans text-gray-700 pb-2 list-disc ml-10">
               <li class="py-1">
+                📧 <a href="mailto:soaibuzzaman@protonmail.com">Email</a> - If you have
+                a question about me, or a suggestion, or anything else and want
+                to send me a message, simply write me an email (<a
+                  href="mailto:soaibuzzaman@protonmail.com"
+                  >soaibuzzaman@protonmail.com</a
+                >). All the emails are end-to-end encrypted, hence secured. I
+                read 100% of emails and try to reply to them all.
+              </li>
+              <li class="py-1">
                 🐦
                 <a href="https://twitter.com/sooaaib" target="_blank">Twitter</a
-                > - If you've got a short question or message, please tweet or
-                send a direct message <a
+                > - If you've got a short message and want it on social media,
+                please tweet or send a direct message <a
                   href="https://twitter.com/sooaaib"
                   target="_blank"
                   >@sooaaib</a
                 >
                 and I'll get back to you as soon as I can.
-              </li>
-              <li class="py-1">
-                📧 <a href="mailto:mail@soaibsafi.com">Email</a> - If it's a
-                longer thing, or you don't want it to be on social media, please
-                send me an email- (mail@soaibsafi.com). I read 100% of emails
-                and try to reply them all.
               </li>
               <li class="py-1">
                 ☕️
@@ -279,10 +281,9 @@
             >
               <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
             </svg>
-            <g-link href="Resume_Soaibuzzaman.pdf"  target="_blank"
+            <g-link href="Resume_Soaibuzzaman.pdf" target="_blank"
               >Resume</g-link
             >
-            
           </button>
         </div>
       </div>
@@ -331,8 +332,8 @@ export default {
 
 <style scoped>
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 a {
   background: linear-gradient(transparent 75%, #66ff99 0);

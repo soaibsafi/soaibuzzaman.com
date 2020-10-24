@@ -15,9 +15,7 @@
             I'm Soaibuzzaman.
             <br />
           </h1>
-          <h3
-            class="text-xl text-2xl font-sans font-bold mb-1 text-gray-700"
-          >
+          <h3 class="text-xl text-2xl font-sans font-bold mb-1 text-gray-700">
             I'm a Researcher, Programmer, Software Engineer.
           </h3>
           <br />
@@ -29,7 +27,12 @@
           </p>
           <br />
           <p class="font-sans text-xl text-gray-800">
-            You can read my <a href="/blog">blog</a> or learn more <a href="/about">about me</a>.
+            You can read my 📝<a href="/blog">blog</a> or learn more 👨‍💻<a
+              href="/about"
+              >about me</a
+            >. You can also have a look at my 📚<a href="/tag/Book%20Note/"
+              >book notes</a
+            >.
           </p>
           <br />
           <p class="font-sans text-xl text-gray-800">
@@ -48,7 +51,6 @@
           />
         </div>
       </div>
-      
 
       <site-footer class="py-3" />
     </main>
@@ -102,8 +104,8 @@ export default {
 
 <style scoped>
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 a {
   background: linear-gradient(transparent 75%, #66ff99 0);
