@@ -5,8 +5,8 @@ description: "How to Take Smart Notes: One Simple Technique to Boost Writing, Le
 date: 2020-10-20 11:02:13
 tags:
     - Book Note
+    - Non-Fiction
     - Productivity
-    - Self Help
 ---
 
 ###### Author: Sönke Ahrens 
