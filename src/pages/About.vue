@@ -238,6 +238,7 @@
                 >). All the emails are end-to-end encrypted, hence secured. I
                 read 100% of emails and try to reply to them all.
               </li>
+              <!--
               <li class="py-1">
                 🐦
                 <a href="https://twitter.com/sooaaib" target="_blank">Twitter</a
@@ -249,6 +250,7 @@
                 >
                 and I'll get back to you as soon as I can.
               </li>
+              -->
               <li class="py-1">
                 ☕️
                 <a
