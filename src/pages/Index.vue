@@ -17,7 +17,7 @@
       Learning and Automation Technology. <br />
       Apart from my academic life, I am a mountain lover, bookworm, nature
       explorer. You can learn more
-      <a class="text-gray-700" href="https://soaibsafi.com/" target="_blank"
+      <a href="https://soaibsafi.com/" target="_blank"
         >about me</a
       >, read my 📝<a href="https://blog.soaibsafi.com/" target="_blank"
         >blog</a
@@ -121,9 +121,9 @@
     <ul class="text-md font-mono text-gray-700 pb-2 list-disc ml-2">
       <li class="py-1">
         📧
-        <a class="text-gray-700" href="mailto:mail@soaibsafi.com">Email</a> - If
+        <a href="mailto:mail@soaibsafi.com">Email</a> - If
         you have questions, suggestions, concerns or anything else, simply write
-        me an email (<a class="text-gray-700" href="mailto:mail@soaibsafi.com"
+        me an email (<a href="mailto:mail@soaibsafi.com"
           >mail@soaibsafi.com</a
         >) or contact me on
         <a
