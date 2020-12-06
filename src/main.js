@@ -1,6 +1,11 @@
-import DefaultLayout from "~/layouts/Default.vue";
-//Gridsome remark support for math equations using remark-math and katex.
-import 'katex/dist/katex.min.css'
+// This is the main.js file. Import global CSS and scripts here.
+// The Client API can be used here. Learn more: https://gridsome.org/docs/client-api
+
+import DefaultLayout from '~/layouts/Default.vue'
+import '~/assets/css/base.postcss'
+
+import GithubCorner from 'vue-github-corners'
+
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
   faGithubSquare,
@@ -22,17 +27,81 @@ library.add({
   faResearchgate,
   faOrcid,
 });
-require("gridsome-plugin-remark-prismjs-all/themes/night-owl.css");
 
-export default function(Vue, { head }) {
-  Vue.component("Layout", DefaultLayout);
+export default function(Vue, { router, head, isClient }) {
+  // Set default layout as a global component
+  Vue.component('Layout', DefaultLayout);
   Vue.component("font-awesome-icon", FontAwesomeIcon);
 
-  head.htmlAttrs = { lang: "en", class: "h-full" };
-  head.bodyAttrs = { class: "antialiased font-serif" };
 
+  head.htmlAttrs = { lang: 'en' }
+  head.bodyAttrs = { class: 'antialiased font-body font-serif' }
+
+  // Styles
   head.link.push({
-    rel: "stylesheet",
-    href: "https://fonts.googleapis.com/css?family=Fira+Sans:400,700%7CCardo"
-  });
+    rel: 'stylesheet',
+    href: 'https://fonts.googleapis.com/css?family=Great+Vibes|Libre+Baskerville&display=swap',
+  })
+
+  // Basic meta tags
+  head.meta.push({
+    name: 'author',
+    content: 'Ville Säävuori',
+  })
+
+  head.meta.push({
+    name: 'keywords',
+    content: 'Gridsome,Vue,Tailwind,Tailwind CSS,JavaScript,HTML,CSS,Vue.js,VueJS',
+  })
+
+  head.meta.push({
+    name: 'description',
+    content: 'Single page starter template for Gridsome.',
+  })
+
+  // Open Graph + Twitter meta tags
+  head.meta.push({
+    property: 'og:description',
+    content: 'Single page starter template for Gridsome.',
+  })
+
+  head.meta.push({
+    name: 'twitter:description',
+    content: 'Single page starter template for Gridsome.',
+  })
+
+  head.meta.push({
+    property: 'og:type',
+    content: 'website',
+  })
+
+  head.meta.push({
+    property: 'og:title',
+    content: 'Tulip - Single Page Gridsome Starter',
+  })
+
+  head.meta.push({
+    name: 'twitter:title',
+    content: 'Tulip - Single Page Gridsome Starter',
+  })
+
+  head.meta.push({
+    name: 'twitter:card',
+    content: 'summary_large_image',
+  })
+
+  head.meta.push({
+    name: 'twitter:creator',
+    content: '@uninen',
+  })
+
+  head.meta.push({
+    property: 'og:image',
+    content: ' https://gridsome-starter-tulip.netlify.com/img/social-preview.png',
+  })
+
+  head.meta.push({
+    name: 'twitter:image',
+    content: 'https://gridsome-starter-tulip.netlify.com/img/social-preview.png',
+  })
 }

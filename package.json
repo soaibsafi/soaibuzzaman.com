@@ -1,32 +1,28 @@
 {
   "name": "soaibuzzaman.com",
+  "version": "0.2.3",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "build": "gridsome build",
+    "dev": "gridsome develop",
     "develop": "gridsome develop",
-    "explore": "gridsome explore",
-    "newpost": "node scripts/newPost.js"
+    "explore": "gridsome explore"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.30",
-    "@fortawesome/free-brands-svg-icons": "^5.14.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@fortawesome/vue-fontawesome": "^2.0.0",
-    "@gridsome/plugin-google-analytics": "^0.1.1",
-    "@gridsome/plugin-sitemap": "^0.3.0",
-    "@gridsome/source-filesystem": "^0.6.2",
-    "@gridsome/transformer-remark": "^0.6.3",
-    "gridsome": "^0.7.15",
-    "gridsome-plugin-remark-prismjs-all": "^0.3.5",
-    "gridsome-plugin-remark-shiki": "^0.4.0",
-    "gridsome-plugin-rss": "^1.2.0",
-    "gridsome-remark-katex": "^0.1.1",
-    "medium-zoom": "^1.0.5",
-    "vue-parallaxy": "^1.1.1"
+    "@gridsome/plugin-google-analytics": "^0.1.2",
+    "autoprefixer": "^9.8.6",
+    "gridsome": "^0.7.23",
+    "gridsome-plugin-tailwindcss": "^3.0.1",
+    "postcss": "^7.0.35",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.1",
+    "vue-github-corners": "^1.2.3"
   },
   "devDependencies": {
-    "moment": "^2.26.0",
-    "postcss-import": "^12.0.1",
-    "postcss-nested": "^4.2.1",
-    "tailwindcss": "^1.4.6"
+    "netlify-plugin-gridsome-cache": "^1.0.3"
   }
 }

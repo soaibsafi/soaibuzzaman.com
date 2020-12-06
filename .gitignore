@@ -1,8 +1,8 @@
 *.log
 .cache
-.vscode
+.DS_Store
 src/.temp
 node_modules
 dist
-static/feed.xml
-.DS_Store
+.env
+.env.*

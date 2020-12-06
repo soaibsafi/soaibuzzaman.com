@@ -1,94 +1,45 @@
+// This is where project configuration and plugin options are located.
+// Learn more: https://gridsome.org/docs/config
+
+// Changes here require a server restart.
+// To restart press CTRL + C in terminal and run `gridsome develop`
+
+// Google analytics is enabled only if this OR environment variable by the same name is set
+const GOOGLE_ANALYTICS_ID = "UA-112399894-3"
+
+// Configure plugins here
+let plugins = [
+  {
+    use: 'gridsome-plugin-tailwindcss',
+    options: {
+      tailwindConfig: './tailwind.config.js',
+      /* These are the default options. You don't need to set any options to get going.
+        purgeConfig: {},
+        presetEnvConfig: {},
+        shouldPurge: true,
+        shouldImport: true,
+        shouldTimeTravel: true
+      */
+    },
+  },
+]
+
+if (GOOGLE_ANALYTICS_ID || process.env.GOOGLE_ANALYTICS_ID) {
+  plugins.push({
+    use: '@gridsome/plugin-google-analytics',
+    options: {
+      id: GOOGLE_ANALYTICS_ID || process.env.GOOGLE_ANALYTICS_ID,
+    },
+  })
+}
+
 module.exports = {
   siteName: 'Soaibuzzaman',
-  siteDescription: "Soaibuzzaman's web home.",
-  siteUrl: 'https://soaibuzzaman.com',
-  titleTemplate: `%s | Soaibuzzaman`,
-  icon: 'src/assets/images/favicon.png',
-
-  transformers: {
-    remark: {
-      externalLinksTarget: '_blank',
-      externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
-      anchorClassName: 'icon icon-link',
-      plugins: [
-        //'gridsome-plugin-remark-prismjs-all',
-        ['gridsome-plugin-remark-shiki', {
-          theme: 'min-light'
-        }],
-        //remark support for math equations
-        'gridsome-remark-katex',
-      ]
-    }
-  },
-
-  plugins: [
-    {
-      use: '@gridsome/source-filesystem',
-      options: {
-        path: 'content/posts/**/*.md',
-        typeName: 'Post',
-        refs: {
-          tags: {
-            typeName: 'Tag',
-            create: true,
-          },
-        },
-      },
-    },
-    {
-      use: '@gridsome/plugin-google-analytics',
-      options: {
-        id: 'UA-112399894-3',
-      },
-    },
-    {
-      use: '@gridsome/plugin-sitemap',
-      options: {
-        cacheTime: 600000, // default
-      },
-    },
-    {
-      use: 'gridsome-plugin-rss',
-      options: {
-        contentTypeName: 'Post',
-        feedOptions: {
-          title: 'Soaibuzzaman',
-          feed_url: 'https://soaibuzzaman.com/feed.xml',
-          site_url: 'https://soaibuzzaman.com',
-        },
-        feedItemOptions: node => ({
-          title: node.title,
-          description: node.description,
-          url: 'https://soaibuzzaman.com' + node.path,
-          author: node.author,
-          date: node.date,
-        }),
-        output: {
-          dir: './static',
-          name: 'feed.xml',
-        },
-      },
-    },
-  ],
-
-  templates: {
-    Post: '/:title',
-    Tag: '/tag/:id',
-  },
-
-  chainWebpack: config => {
-    config.module
-      .rule('css')
-      .oneOf('normal')
-      .use('postcss-loader')
-      .tap(options => {
-        options.plugins.unshift(...[
-          require('postcss-import'),
-          require('postcss-nested'),
-          require('tailwindcss'),
-        ])
-
-        return options
-      })
-  },
+  // Default titleTemplate is '%s - <siteName>'
+  // Overrided here to avoid having 'My Site Name - My Site Name' on homepage
+  titleTemplate: '%s',
+  // Default is './src/favicon.png'
+  icon: './src/assets/img/favicon.png',
+  plugins,
 }
+// All configuration options: https://gridsome.org/docs/config

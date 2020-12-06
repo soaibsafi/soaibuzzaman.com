@@ -1,9 +1,0 @@
-@import 'tailwindcss/base';
-
-@import 'components/resets';
-
-@import 'tailwindcss/components';
-
-@import 'components/markdown';
-
-@import 'tailwindcss/utilities';
