@@ -12,17 +12,18 @@
 
     <h2>👋 Hi, nice to meet you!</h2>
     <p class="text-md font-mono text-gray-700 pb-2">
-      I am Soaibuzzaman, a Master's student at TU Chemnitz. My area of interest
-      includes research and development in the field of Computer Vision, Machine
-      Learning and Automation Technology. <br />
+      I am Soaibuzzaman, a master's student at Chemnitz University of
+      Technology. My area of interest includes research and development in the
+      field of Computer Vision, Machine Learning and Automation Technology.
+      <br />
       Apart from my academic life, I am a mountain lover, bookworm, nature
-      explorer. You can learn more
-      <a href="https://soaibsafi.com/" target="_blank"
-        >about me</a
-      >, read my 📝<a href="https://blog.soaibsafi.com/" target="_blank"
-        >blog</a
+      explorer. You can learn more 📇
+      <a href="https://soaibsafi.com/" target="_blank">about me</a>, read my
+      📝<a href="https://blog.soaibsafi.com/" target="_blank">blog</a> or 📚<a
+        href="https://blog.soaibsafi.com/"
+        target="_blank"
+        >book notes.</a
       >
-      or 📚<a href="https://blog.soaibsafi.com/" target="_blank">book notes.</a>
     </p>
 
     <!-- Publicarion-->
@@ -50,18 +51,26 @@
     <h3>🔬 Research</h3>
     <ul class="text-md font-mono text-gray-700 pb-2 list-disc ml-2">
       <li>
-        High Dynamic Range Imaging Using Sub-Pixel Architecture for Automotive
+        (2020)-High Dynamic Range Imaging Using Sub-Pixel Architecture for Automotive
         CMOS Sensor.
       </li>
-      <li>Car2Car Communication Applications.</li>
-      <li>
-        Attention Based English to Bangla Machine Translation Using Sequence to
-        Sequence Learning with Neural Networks. <br />
-        Source Code:
-        <a href="https://github.com/soaibsafi/seq2seq-e2b" target="_blank">seq2seq-e2b</a>
+      <li>(2020)-
+        <a
+          href="https://www.academia.edu/44655873/Car2Car_Communication_Applications"
+          target="_blank"
+          >Car2Car Communication Applications.</a
+        >
       </li>
       <li>
-        Mental Health After Stroke and Rehabilitation Using BCI Technology and
+        (2018)-Attention Based English to Bangla Machine Translation Using Sequence to
+        Sequence Learning with Neural Networks. (Undergraduate Thesis) <br />
+        Source Code:
+        <a href="https://github.com/soaibsafi/seq2seq-e2b" target="_blank"
+          >seq2seq-e2b</a
+        >
+      </li>
+      <li>
+        (2017)-Mental Health After Stroke and Rehabilitation Using BCI Technology and
         VR Feedback.
       </li>
     </ul>
@@ -69,7 +78,7 @@
     <!-- Work Experience-->
     <h3>💻 Work Experience</h3>
     <p class="text-md font-mono text-gray-700 ml-5">
-      I am currently working as a Graduate Research Assistant at
+      I am currently working as a Research Assistant at
       <a href="https://www.iwu.fraunhofer.de/" target="_blank"
         >Fraunhofer IWU</a
       >
@@ -121,9 +130,9 @@
     <ul class="text-md font-mono text-gray-700 pb-2 list-disc ml-2">
       <li class="py-1">
         📧
-        <a href="mailto:mail@soaibsafi.com">Email</a> - If
-        you have questions, suggestions, concerns or anything else, simply write
-        me an email (<a href="mailto:mail@soaibsafi.com"
+        <a href="mailto:mail@soaibsafi.com">Email</a> - If you have questions,
+        suggestions, concerns or anything else, simply write me an email (<a
+          href="mailto:mail@soaibsafi.com"
           >mail@soaibsafi.com</a
         >) or contact me on
         <a
@@ -150,6 +159,7 @@
     </ul>
 
     <br />
+    <p class="text-md font-mono text-gray-700" >Thanks for visiting!</p>
     <br />
     <hr />
 
