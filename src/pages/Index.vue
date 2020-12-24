@@ -18,11 +18,11 @@
       <br />
       Apart from my academic life, I am a mountain lover, bookworm, nature
       explorer. You can learn more 📇
-      <a href="https://soaibsafi.com/" target="_blank">about me</a>, read my
-      📝<a href="https://blog.soaibsafi.com/" target="_blank">blog</a> or 📚<a
-        href="https://blog.soaibsafi.com/"
+      <a href="https://soaibsafi.com/" target="_blank">About Me</a>, read my
+      📝<a href="https://blog.soaibsafi.com/" target="_blank">Blog</a> or 📚<a
+        href="https://booknotes.soaibsafi.com/"
         target="_blank"
-        >book notes.</a
+        >Book Notes.</a
       >
     </p>
 
