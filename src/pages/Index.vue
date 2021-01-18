@@ -246,7 +246,7 @@
     <!-- Credit-->
     <p class="text-center mb-8 text-xs">
       Made with ❤️ <br />
-      &copy; 2020 by Soaibuzzaman
+      &copy; 2018-2021 by Soaibuzzaman
     </p>
 
     <!-- Github Corner-->
