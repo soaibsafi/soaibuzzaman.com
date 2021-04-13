@@ -14,19 +14,71 @@
     <p class="text-md font-mono text-gray-700 pb-2">
       I am Soaibuzzaman, a master's student at Chemnitz University of
       Technology. My area of interest includes research and development in the
-      field of Computer Vision, Machine Learning and Automation Technology.
+      field of Computer Vision, Deep Learning and Automation Technology.
       <br />
       Apart from my academic life, I am a mountain lover, bookworm, nature
-      explorer. You can learn more 📇
-      <a href="https://soaibsafi.com/" target="_blank">About Me</a>, read my
-      📝<a href="https://blog.soaibsafi.com/" target="_blank">Blog</a> or 📚<a
-        href="https://booknotes.soaibsafi.com/"
-        target="_blank"
-        >Book Notes.</a
-      >
+      explorer. 
+      <br />
+      You can read my
+      📝<a href="https://blog.soaibsafi.com/" target="_blank">Blog</a> here.
     </p>
 
-    <!-- Publicarion-->
+        <!-- Work Experience-->
+    <h3>💻 Experience</h3>
+    <!-- <p class="text-md font-mono text-gray-700 ml-5">
+      I am currently working as a Research Assistant at
+      <a href="https://www.iwu.fraunhofer.de/" target="_blank"
+        >Fraunhofer IWU</a
+      >
+    </p>
+    <p class="text-md font-mono text-gray-700 ml-5">
+      In the past, I’ve worked at:
+    </p> -->
+    <ul class="text-md font-mono text-gray-700 pb-2 list-disc ml-2">
+      <li>
+        (2020-Present) Research Assistant -
+        <a href="https://www.iwu.fraunhofer.de/" target="_blank"
+        >Fraunhofer IWU</a
+      >
+      </li>
+      <li>
+        (2020) Programmer/Application Developer -
+        <a href="https://www.palmer-gruppe.de/" target="_blank"
+          >Palmer Gruppe</a
+        >
+      </li>
+      <li>
+        (2018) Teaching Assistant -
+        <a href="https://www.aiub.edu/" target="_blank"
+          >American International University-Bangladesh</a
+        >
+      </li>
+    </ul>
+
+        <!-- Academic-->
+    <h3>🎓 Academic Journey</h3>
+    <ul class="text-md font-mono text-gray-700 pb-2 list-disc ml-2">
+      <li>
+        M.Sc., Automotive Software Engineering,
+        <p class="ml-5">
+          Technische Universität Chemnitz<br />
+          Department of Computer Science<br />
+          October 2019 - Present<br />
+        </p>
+      </li>
+
+      <li>
+        B.Sc., in Computer Science &amp; Engineering,
+        <p class="ml-5">
+          American International University - Bangladesh<br />
+          Department of Computer Science<br />
+          2014 - 2018<br />
+        </p>
+      </li>
+    </ul>
+
+
+    <!-- Publication-->
     <h3>📘 Publications</h3>
     <ul class="text-md font-mono text-gray-700 pb-2 list-disc ml-2">
       <li class="py-1">
@@ -75,65 +127,15 @@
       </li>
     </ul>
 
-    <!-- Work Experience-->
-    <h3>💻 Work Experience</h3>
-    <p class="text-md font-mono text-gray-700 ml-5">
-      I am currently working as a Research Assistant at
-      <a href="https://www.iwu.fraunhofer.de/" target="_blank"
-        >Fraunhofer IWU</a
-      >
-    </p>
-    <p />
-    <p class="text-md font-mono text-gray-700 ml-5">
-      In the past, I’ve worked at:
-    </p>
-    <p />
-    <ul class="text-md font-mono text-gray-700 pb-2 list-disc ml-2">
-      <li>
-        (2020) Programmer/Application Developer -
-        <a href="https://www.palmer-gruppe.de/" target="_blank"
-          >Palmer Gruppe</a
-        >
-      </li>
-      <li>
-        (2018) Teaching Assistant -
-        <a href="https://www.aiub.edu/" target="_blank"
-          >American International University-Bangladesh</a
-        >
-      </li>
-    </ul>
-
-    <!-- Academic-->
-    <h3>🎓 Academic Journey</h3>
-    <ul class="text-md font-mono text-gray-700 pb-2 list-disc ml-2">
-      <li>
-        M.Sc., Automotive Software Engineering,
-        <p class="ml-5">
-          Technische Universität Chemnitz<br />
-          Department of Computer Science<br />
-          October 2019 - Present<br />
-        </p>
-      </li>
-
-      <li>
-        B.Sc., in Computer Science &amp; Engineering,
-        <p class="ml-5">
-          American International University - Bangladesh<br />
-          Department of Computer Science<br />
-          2014 - 2018<br />
-        </p>
-      </li>
-    </ul>
-
     <!-- Contact-->
     <h3>📮 Get in Touch</h3>
     <ul class="text-md font-mono text-gray-700 pb-2 list-disc ml-2">
       <li class="py-1">
         📧
-        <a href="mailto:mail@soaibsafi.com">Email</a> - If you have questions,
+        <a href="mailto:soaibuzzaman@pm.me">Email</a> - If you have questions,
         suggestions, concerns or anything else, simply write me an email (<a
-          href="mailto:mail@soaibsafi.com"
-          >mail@soaibsafi.com</a
+          href="mailto:soaibuzzaman@pm.me"
+          >soaibuzzaman(at)pm.me</a
         >) or contact me on
         <a
           href="https://www.linkedin.com/in/soaibuzzaman-2a080378/"
@@ -148,13 +150,7 @@
           target="_blank"
           >In person</a
         > - I love meeting up with people in real life. If you are taking a trip
-        to Chemnitz, Germany and want to chat, I'll buy you a coffee. I would
-        also like to host @<a
-          href="https://www.couchsurfing.com/people/soaibuzzaman"
-          target="_blank"
-          >Couchsurfing</a
-        >. If you are searching for a 🛋️couch at Chemnitz, drop me an email and
-        we can work something out.
+        to Chemnitz, Germany and want to chat, I'll buy you a coffee. 
       </li>
     </ul>
 
