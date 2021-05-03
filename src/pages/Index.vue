@@ -17,13 +17,19 @@
       field of Computer Vision, Deep Learning and Automation Technology.
       <br />
       Apart from my academic life, I am a mountain lover, bookworm, nature
-      explorer. 
+      explorer.
       <br />
-      You can read my
-      📝<a href="https://blog.soaibsafi.com/" target="_blank">Blog</a> here.
+      You can browse my ⚗️<a href="https://github.com/soaibsafi" target="_blank"
+        >Projects</a
+      >, read my 📝<a href="https://blog.soaibsafi.com/" target="_blank"
+        >Blog</a
+      >
+      or explore my 📚<a href="https://booknotes.soaibsafi.com/" target="_blank"
+        >Book Notes</a
+      >.
     </p>
 
-        <!-- Work Experience-->
+    <!-- Work Experience-->
     <h3>💻 Experience</h3>
     <!-- <p class="text-md font-mono text-gray-700 ml-5">
       I am currently working as a Research Assistant at
@@ -38,8 +44,8 @@
       <li>
         (2020-Present) Research Assistant -
         <a href="https://www.iwu.fraunhofer.de/" target="_blank"
-        >Fraunhofer IWU</a
-      >
+          >Fraunhofer IWU</a
+        >
       </li>
       <li>
         (2020) Programmer/Application Developer -
@@ -55,7 +61,7 @@
       </li>
     </ul>
 
-        <!-- Academic-->
+    <!-- Academic-->
     <h3>🎓 Academic Journey</h3>
     <ul class="text-md font-mono text-gray-700 pb-2 list-disc ml-2">
       <li>
@@ -76,7 +82,6 @@
         </p>
       </li>
     </ul>
-
 
     <!-- Publication-->
     <h3>📘 Publications</h3>
@@ -103,10 +108,15 @@
     <h3>🔬 Research</h3>
     <ul class="text-md font-mono text-gray-700 pb-2 list-disc ml-2">
       <li>
-        (2020)-High Dynamic Range Imaging Using Sub-Pixel Architecture for Automotive
-        CMOS Sensor.
+        (2021)-Image segmentation based on Convolutional Neural Networks.
       </li>
-      <li>(2020)-
+
+      <li>
+        (2020)-High Dynamic Range Imaging Using Sub-Pixel Architecture for
+        Automotive CMOS Sensor.
+      </li>
+      <li>
+        (2020)-
         <a
           href="https://www.academia.edu/44655873/Car2Car_Communication_Applications"
           target="_blank"
@@ -114,16 +124,17 @@
         >
       </li>
       <li>
-        (2018)-Attention Based English to Bangla Machine Translation Using Sequence to
-        Sequence Learning with Neural Networks. (Undergraduate Thesis) <br />
+        (2018)-Attention Based English to Bangla Machine Translation Using
+        Sequence to Sequence Learning with Neural Networks. (Undergraduate
+        Thesis) <br />
         Source Code:
         <a href="https://github.com/soaibsafi/seq2seq-e2b" target="_blank"
           >seq2seq-e2b</a
         >
       </li>
       <li>
-        (2017)-Mental Health After Stroke and Rehabilitation Using BCI Technology and
-        VR Feedback.
+        (2017)-Mental Health After Stroke and Rehabilitation Using BCI
+        Technology and VR Feedback.
       </li>
     </ul>
 
@@ -132,7 +143,7 @@
     <ul class="text-md font-mono text-gray-700 pb-2 list-disc ml-2">
       <li class="py-1">
         📧
-        <a href="mailto:soaibuzzaman@pm.me">Email</a> - If you have questions,
+        <a href="mailto:soaibuzzaman@pm.me">Email</a> - If you have questions,
         suggestions, concerns or anything else, simply write me an email (<a
           href="mailto:soaibuzzaman@pm.me"
           >soaibuzzaman(at)pm.me</a
@@ -149,13 +160,14 @@
           href="https://www.google.com/maps/place/Chemnitz/@50.8227027,12.8209367,12z/"
           target="_blank"
           >In person</a
-        > - I love meeting up with people in real life. If you are taking a trip
-        to Chemnitz, Germany and want to chat, I'll buy you a coffee. 
+        >
+        - I love meeting up with people in real life. If you are taking a trip
+        to Chemnitz, Germany and want to chat, I'll buy you a coffee.
       </li>
     </ul>
 
     <br />
-    <p class="text-md font-mono text-gray-700" >Thanks for visiting!</p>
+    <p class="text-md font-mono text-gray-700">Thanks for visiting!</p>
     <br />
     <hr />
 
